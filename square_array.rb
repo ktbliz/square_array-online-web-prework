@@ -1,9 +1,10 @@
 def square_array(array)
   
-  array.each { |x| 
+  new_array = array.each { |x| 
       x**2 
   
   }
+  puts new_array
   
 end
 
